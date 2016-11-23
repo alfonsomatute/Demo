@@ -8,23 +8,23 @@
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="/">Start Bootstrap</a>
+                <a class="navbar-brand" href="/">Entre Pinos y Encinas</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="/">Home</a>
+                        <a href="/">Inicio</a>
                     </li>
                     <li>
-                        <a href="/clean-blog/about.html">About</a>
+                        <a href="/clean-blog/about.html">El proyecto</a>
                     </li>
                     <li>
-                        <a href="/clean-blog/post.html">Sample Post</a>
+                        <a href="/clean-blog/post.html">Recursos</a>
                     </li>
                     <li>
-                        <a href="/clean-blog/contact.html">Contact</a>
+                        <a href="/clean-blog/contact.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -39,7 +39,7 @@
     <header class="intro-header" style="background-image: url('/clean-blog/img/{{ $banner->image }}')">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="col-lg-10 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
                         <h1>{{ $banner->title }}</h1>
                         <hr class="small">

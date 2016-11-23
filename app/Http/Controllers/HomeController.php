@@ -11,9 +11,9 @@ class HomeController extends Controller
 	public function index()
 	{
 		$banner = (object)[ 
-			'image' => 'home-bg.jpg',
-			'title' => 'Clean Blog',
-			'subtitle' => 'A Clean Blog Theme by Start Bootstrap',
+			'image' => 'cabecera.jpeg',
+			'title' => 'entre pinos y encinas',
+			'subtitle' => 'aprendiendo de la tierra',
 		];
 		$posts = array();
 		return view('themes.clean-blog.home',compact('posts','banner'));
