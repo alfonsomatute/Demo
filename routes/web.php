@@ -18,3 +18,5 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index');
+
+Route::get('article/{id}/{slug}','ArticlesController@article');
