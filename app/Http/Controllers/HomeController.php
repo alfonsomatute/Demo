@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use Backpack\NewsCRUD\app\Models\Article;
-//use Backpack\NewsCRUD\app\Models\Category;
+use Backpack\NewsCRUD\app\Models\Category;
 
 class HomeController extends Controller
 {
