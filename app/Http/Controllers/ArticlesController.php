@@ -15,9 +15,9 @@ class ArticlesController extends Controller
     	$article = Article::find($id);
 
     	$banner = (object)[ 
-			'image' => $article->image,
+			'image' => url($article->image),
 			'title' => $article->title,
-			'subtitle' => '',
+			'subtitle' => $article->subtitle,
 		];
 		
 		return view('themes.clean-blog.article',compact('article','banner'));
