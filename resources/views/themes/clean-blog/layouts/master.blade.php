@@ -32,7 +32,8 @@
 </head>
 
 <body>
-@include('themes.clean-blog.partials.header')
+@include('themes.clean-blog.partials.nav')
+@yield('header')
     <!-- Main Content -->
     <div class="container">
         

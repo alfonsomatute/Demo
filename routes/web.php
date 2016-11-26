@@ -20,4 +20,5 @@ Auth::routes();
 Route::get('/', 'HomeController@index');
 
 Route::get('article/{id}/{slug}','ArticlesController@article');
-
+Route::get('{page}/{subs?}', ['uses' => 'PageController@index'])
+	    ->where(['page' => '^((?!admin).)*$', 'subs' => '.*']);
