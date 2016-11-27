@@ -8,7 +8,7 @@ class PageController extends Controller
 {
     public function index($slug)
     {
-        $page = Page::findBySlug($slug);
+        $page = Page::where('slug',$slug)->first();
 
         if (!$page)
         {

@@ -67,5 +67,11 @@ trait PageTemplates
                         'type'        => 'wysiwyg',
                         'placeholder' => 'Your content here',
                     ]);
+        $this->crud->addField([
+                        'name'        => 'image',
+                        'label'       => 'Image',
+                        'type'        => 'browse',
+                        'placeholder' => 'Choose header image',
+                    ]);
     }
 }

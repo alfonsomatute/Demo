@@ -18,7 +18,7 @@
                         <a href="/">Inicio</a>
                     </li>
                     <li>
-                        <a href="/clean-blog/about.html">El proyecto</a>
+                        <a href="/el-proyecto">El proyecto</a>
                     </li>
                     <li>
                         <a href="/clean-blog/post.html">Recursos</a>
