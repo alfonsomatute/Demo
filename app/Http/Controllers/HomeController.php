@@ -20,5 +20,10 @@ class HomeController extends Controller
 		$articles = Article::orderBy('date','desc')->paginate(15);
 		return view('themes.clean-blog.home',compact('articles','banner'));
 	}
+
+	public function contact()
+	{
+		echo json_encode(array('result'=>'ok'));
+	}
 }
 

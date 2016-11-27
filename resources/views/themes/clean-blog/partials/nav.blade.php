@@ -24,7 +24,7 @@
                         <a href="/clean-blog/post.html">Recursos</a>
                     </li>
                     <li>
-                        <a href="/clean-blog/contact.html">Contacto</a>
+                        <a href="/contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
