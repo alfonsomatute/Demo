@@ -23,6 +23,7 @@ class ArticlesTableSeeder extends Seeder
 
 	        $article = Article::create([
 				'title' => $faker->sentence(), 
+				'subtitle' => $faker->sentence(30), 
 				'content' => $faker->text(), 
 				'image' => $faker->imageURL(1900,600),
 				'status' => $faker->randomElement(array('PUBLISHED','PUBLISHED','DRAFT')),

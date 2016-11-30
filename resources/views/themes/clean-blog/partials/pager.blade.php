@@ -5,3 +5,4 @@
                         <a href="#">Older Posts &rarr;</a>
                     </li>
                 </ul>
+{{ $articles->links() }}
