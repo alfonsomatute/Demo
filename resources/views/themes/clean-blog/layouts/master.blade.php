@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Clean Blog</title>
 
     <!-- Bootstrap Core CSS -->
@@ -32,7 +32,8 @@
 </head>
 
 <body>
-@include('themes.clean-blog.partials.header')
+@include('themes.clean-blog.partials.nav')
+@yield('header')
     <!-- Main Content -->
     <div class="container">
         

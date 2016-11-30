@@ -30,6 +30,7 @@
               </ul>
           </li>
 
+          <li><a href="{{ url('admin/resource') }}"><i class="fa fa-list"></i> <span>Resources</span></a></li>
           <li><a href="{{ url('admin/page') }}"><i class="fa fa-file-o"></i> <span>Pages</span></a></li>
           <li><a href="{{ url('admin/menu-item') }}"><i class="fa fa-list"></i> <span>Menu</span></a></li>
 
